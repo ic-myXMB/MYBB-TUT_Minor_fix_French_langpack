@@ -1,0 +1,41 @@
+[For 1.8] - [Tutorial] - Minor Fix for French language pack
+
+
+* Tutorial credits: ic_myXMB 
+* The tutorial is free to re-share as long as you retain any mentioned credits
+
+In ref to:
+
+French (Français)
+by spyto
+
+https://community.mybb.com/mods.php?action=view&pid=78
+
+Just one simple thing quickly noticed as of late while using the existing lang pack (Version v 1.8.28 (stable) 2021-10-28, 07:56 AM https://community.mybb.com/mods.php?action=download&pid=78&bid=4883 ) on 1830 while translating some plugins:
+
+frontend side...
+
+global.lang.php needs such added:
+
+[code]
+$l['expcol_collapse'] = '[-]';
+$l['expcol_expand'] = '[+]';
+[/code]
+
+admin side...
+
+admin/config_badwords.lang.php
+
+[code]
+$l['add_bad_word_desc'] = "Ici, vous pouvez ajouter un filtre de mots et son remplacement.";
+[/code]
+
+admin/config_banning.lang.php
+
+[code]
+$l['ban_an_ip_address'] = "Interdire une adresse IP";
+[/code]
+
+etc, etc... & most likely there may be more as one notices / finds such, but, just noting all found here initially at least of all the first few warnings about such in relation to subject matter and current usage on 1830. 
+
+Best of luck.
